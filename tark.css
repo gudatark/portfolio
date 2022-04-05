@@ -1,0 +1,95 @@
+.logo {
+    margin: 0 25px;
+}
+body {
+    background-color: whitesmoke;
+}
+.header {
+    font-family: 'Bitter', serif;
+    color:white;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    justify-content:space-between;
+    gap:30px;
+    color: white;
+
+      }
+
+.navbar {
+width: 100%;    
+background-color: #002F6C;
+color: white;
+display: flex;
+justify-content: flex-end;
+
+
+}
+
+.navbar .logo {
+    margin-right:auto;
+}
+
+
+.container {
+    margin: 0;
+}
+nav {
+    width:40vw;
+}
+nav > a {
+    color:white;
+    
+}
+
+a{
+    color: white;
+}
+.col-centered {
+    float:none;
+    margin-right: 0;
+    margin-left: 0;
+    overflow: auto;
+    padding: 0 20px;
+   
+
+}
+
+.row {
+    justify-content :center;
+
+}
+
+.card {
+    max-width:18rem;
+}
+
+#footer {
+    font-family: 'Bitter', serif;
+    background-color:#002F6C ;   
+    color:white;
+}
+ 
+.card {
+    max: 12rem;
+    
+}
+
+.contact-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width:100%;
+
+}
+
+.contact-me > * {
+    margin: 0px;
+    padding:20px 30px;
+}
